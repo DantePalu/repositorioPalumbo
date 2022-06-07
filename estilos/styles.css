@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.menuNavegacion li a:hover{
+    background-color: rgb(61, 58, 58);
+    transition: 1s;
+}
+.menuNavegacion li a{
+    text-decoration: none;
+    color: black;
+}
+#grilla{
+    grid-template-areas: 'header'
+                         'main'
+                         'footer';
+}
+header{
+    background-color: darkslategray;
+    grid-area: header;
+}
+body{
+    background-color: rgb(99, 133, 133);
+}
+main{
+    grid-area: main;
+}
+footer{
+    background-color: darkslategrey;
+    grid-area: footer;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.menuNavegacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 80px 0px;
+    list-style: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: rgb(56, 15, 15);
+}
+.shows{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.contenedorBad{
+    display: flex;
+    flex-direction: column;
+}
+.contenedorLola{
+    display: flex;
+    justify-content: center;
+}
+.tituloBad{
+    padding-left: 140px;
+}
+.bad{
+    height: 400px;
+    width: 600px;
+    margin: 10px;
+    border-radius: 2px;
+}
+.daddy{
+    height: 400px;
+    width: 600px;
+    margin: 10px;
+    border-radius: 2px;
+}
+.anuel{
+    height: 600px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 2px;
+}
+.karol{
+    height: 600px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 2px;
+}
+.balvin{
+    height: 600px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 2px;
+}
+.lola{
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 2px;
+}
+.contenedorTitulo{
+   
+}
+.titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 40px;
+    color: black;
+    
+}
+.iconoBuscar{
+    height: 21px;
+    width: 20px;
+}
+.inicio{
+    margin: 15px;
+}
+.micuenta{
+    margin: 15px;
+}
+.contacto{
+    margin: 15px;
+}
+.buscar{
+    
+}
+.busqueda{
+    margin: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.listaTerminos li a{
+    text-decoration: none;
+    color: black;
+}
+.listaTerminos li a:hover{
+    color: rgb(61, 58, 58);
+    transition: 1s;
+}
+.listaTerminos{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.terminos{
+    margin: 15px;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.contraseña{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
+.iniciarsesion{
+    padding: 10px;
+    margin: 20px;
+}
+.parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+@media (max-width: 480px){
+    .header{
+        width: 480px;
+        background-color: 100%;
+    }
+    .logo{
+        height: 100px;
+        width: 100px;
+    }
+    .iconoBuscar{
+        display: none;
+    }
+    .menuNavegacion{
+        font-size: 10px;
+    }
+    .titulo{
+        font-size: 20px;
+        margin: 20px;
+    }
+    .shows{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tituloBad{
+        font-size: 20px;
+        padding-left: 100px;
+    }
+    .bad{
+        width: 300px;
+        height: 200px;
+    }
+    .daddy{
+        height: 200px;
+        width: 300px;
+    }
+    .anuel{
+        height: 300px;
+        width: 200px;
+    }
+    .karol{
+        height: 300px;
+        width: 200px;
+    }
+    .balvin{
+        height: 300px;
+        width: 200px;
+    }
+    .lola{
+        width: 300px;
+        height: 200px;
+    }
+    .contenedorLola{
+        display: flex;
+        flex-direction: column;
+    }
+    .buscar{
+        display: none;
+    }
+    .terminos{
+        font-size: 10px;
+    }
+    .label{
+        font-size: 15px;
+    }
+    .parrafo{
+        font-size: 10px;
+        margin: 10px;
+    }
+}
+
+
