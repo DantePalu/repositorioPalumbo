@@ -9,7 +9,7 @@
 }
 .menuNavegacion li a{
     text-decoration: none;
-    color: black;
+    color: rgb(160, 198, 214);
 }
 #grilla{
     grid-template-areas: 'header'
@@ -59,6 +59,8 @@ h2{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin: 30px;
+    justify-content: center;
 }
 .contenedorBad{
     display: flex;
@@ -108,6 +110,7 @@ h2{
     border-radius: 2px;
 }
 .contenedorTitulo{
+    font-family: f;
    
 }
 .titulo{
@@ -115,6 +118,9 @@ h2{
     margin: 40px;
     color: black;
     
+}
+.tamaño{
+    font-size: 20px;
 }
 .iconoBuscar{
     height: 21px;
@@ -129,8 +135,13 @@ h2{
 .contacto{
     margin: 15px;
 }
+.searchbar{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
 .buscar{
-    
+
 }
 .busqueda{
     margin: 20px;
@@ -140,7 +151,7 @@ h2{
 }
 .listaTerminos li a{
     text-decoration: none;
-    color: black;
+    color: rgb(160, 198, 214);
 }
 .listaTerminos li a:hover{
     color: rgb(61, 58, 58);
@@ -202,6 +213,16 @@ h2{
     flex-direction: row;
     justify-items: center;
 }
+.margin{
+    margin: 50px;
+}
+.alejar{
+    margin: 20px;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+}
 @media (max-width: 480px){
     .header{
         width: 480px;
@@ -211,11 +232,16 @@ h2{
         height: 100px;
         width: 100px;
     }
-    .iconoBuscar{
-        display: none;
-    }
     .menuNavegacion{
         font-size: 10px;
+        margin: 10px;
+    }
+    .buscar{
+        width: 150px;
+        height: 20px;
+    }
+    .botonbuscar{
+        height: 20px;
     }
     .titulo{
         font-size: 20px;
@@ -260,7 +286,7 @@ h2{
         flex-direction: column;
     }
     .buscar{
-        display: none;
+        
     }
     .terminos{
         font-size: 10px;
@@ -271,6 +297,13 @@ h2{
     .parrafo{
         font-size: 10px;
         margin: 10px;
+    }
+    .tabla{
+        
+    }
+    .velez{
+        height: 200px;
+        width: 200px;
     }
 }
 
