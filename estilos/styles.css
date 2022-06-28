@@ -109,6 +109,13 @@ h2{
     margin: 10px;
     border-radius: 2px;
 }
+.botonbuscar{
+    border-radius: 5px;
+    border: rgb(16, 37, 40) solid;
+    width: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(160, 198, 214);
+}
 .contenedorTitulo{
     font-family: f;
    
@@ -138,10 +145,29 @@ h2{
 .searchbar{
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 20px;
+}
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+.contenedorDesc{
+    margin: 20px;
+}
+.concierto{
+    height: 600px;
+    width: 100%;
+}
+.contenedorConcierto{
+    margin-top: 20px;
+    margin bottom: 20px;
 }
 .buscar{
-
+    border-radius: 5px;
+    border: grey solid;
+    padding: 5px;
 }
 .busqueda{
     margin: 20px;
